@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter as Router, Route} from "react-router-dom";
+import {BrowserRouter as Router, Link} from "react-router-dom";
 
 export default function Navbar() {
     return (
@@ -11,14 +11,15 @@ export default function Navbar() {
             </div>
             <div className="navbar-collapse flex-grow-1" id="myNavbar">
                 <ul className="navbar-nav ml-auto flex-nowrap">
+                    <Router>
                     <li className="nav-item">
-                        <Link to="index.html" className="nav-link m-2 menu-item nav-active">About</Link>
+                        <Link to="/" className="nav-link m-2 menu-item">About</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="portfolio.html" className="nav-link m-2 menu-item">Portfolio</Link>
+                        <Link to="/portfolio" className="nav-link m-2 menu-item">Portfolio</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="contact.html" className="nav-link m-2 menu-item">Contact</Link>
+                        <Link to="/contact" className="nav-link m-2 menu-item">Contact</Link>
                     </li>
                     <li className="nav-item">
                         <Link to="https://www.linkedin.com/in/bryce-pingul/" target="_blank" className="nav-link m-2 menu-item"><i className="fa fa-linkedin"></i></Link>
@@ -26,6 +27,7 @@ export default function Navbar() {
                     <li className="nav-item">
                         <Link to="https://github.com/Brycetp11" target="_blank" className="nav-link m-2 menu-item"><i className="fa fa-github-square"></i></Link>
                     </li>
+                    </Router>
                 </ul>
             </div>
         </nav>
