@@ -1,9 +1,39 @@
-import React from 'react'
+import React, { Component } from 'react'
+import EmailForm from '../components/EmailForm';
 
-export default function Contact() {
-    return (
-        <div>
-            
-        </div>
-    )
+export default class Contact extends Component {
+    state= {
+        name: "",
+        email: "",
+        message: ""
+    }
+
+    handleInputChange = event => {
+        const { name, value } = event.target;
+        this.setState({
+          [name]: value
+        });
+      };
+
+      handleFormSubmit = event => {
+        event.preventDefault();
+        alert(`Thank you ${this.state.name}`)
+        this.setState({
+            name: "",
+            email: "",
+            message: ""
+        })
+      };
+
+    render() {
+        return (
+            <EmailForm 
+            handleFormSubmit={this.handleFormSubmit}
+            handleInputChange={this.handleInputChange}
+            name={this.state.name}
+            email={this.state.email}
+            message={this.state.message}
+            />
+        )
+    }
 }
