@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Link } from "react-router-dom"
+import "./AppCard.css"
 
 export default function AppCard(props) {
     

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import AppCard from '../components/AppCard'
+import AppCard from '../components/AppCard/AppCard'
 import Covidocity from "../assets/covidocity.png"
 import Planner from "../assets/planner.png"
 import Music from "../assets/musicquiz.png"

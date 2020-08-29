@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css';
+// import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Route, Switch, withRouter } from "react-router-dom"
-import About from './pages/About';
+import About from './pages/About/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 

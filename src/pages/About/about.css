@@ -1,0 +1,28 @@
+.about-body {
+    background-color: #353351;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+  }
+  
+  .container {
+    margin-top: 2rem;
+  }
+  
+  .images{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+  }
+
+  .card-about{
+      background-color: #9595a7;
+      border: solid black;
+    border-radius: 35px;
+  }
