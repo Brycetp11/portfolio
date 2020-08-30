@@ -1,5 +1,5 @@
 body {
-    background-color: #c8bac1;
+    background-color: #A9A9A9;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +16,13 @@ body {
     /* border: solid black;
     border-radius: 35px; */
     padding: 2rem;
-    background-color: #c8bac1;
+    background-color: #A9A9A9;
+  }
+
+  .card {
+    background-color: #0C0C22;
+    border: solid 2px white;
+    border-radius: 6px;
   }
   
 

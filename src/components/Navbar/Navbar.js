@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import "./navbar.css"
 
 export default function Navbar() {
     return (
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+            <nav className="navbar navbar-expand-lg navbar-dark" id="navbar">
                 <div className="d-flex flex-grow-1">
-                    <div className="p-3 bg-dark text-light font-weight-bolder text-uppercase">
+                    <div className="p-3 text-light font-weight-bolder text-uppercase">
                         <h3>Bryce Pingul</h3>
                     </div>
                 </div>
@@ -22,10 +23,10 @@ export default function Navbar() {
                             <Link to="/contact" className="nav-link m-2 menu-item">Contact</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="https://www.linkedin.com/in/bryce-pingul/" className="nav-link m-2 menu-item"><i className="fa fa-linkedin"></i></Link>
+                            <a href="https://www.linkedin.com/in/bryce-pingul/" className="nav-link m-2 menu-item"><i className="fa fa-linkedin"></i></a>
                         </li>
                         <li className="nav-item">
-                            <Link to="https://github.com/Brycetp11" className="nav-link m-2 menu-item"><i className="fa fa-github-square"></i></Link>
+                            <a href="https://github.com/Brycetp11" className="nav-link m-2 menu-item"><i className="fa fa-github-square"></i></a>
                         </li>
 
                     </ul>

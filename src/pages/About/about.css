@@ -1,10 +1,10 @@
-.about-body {
-    background-color: #353351;
+/* .about-body {
+    background-color: #083A32;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  } */
   
   h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -13,6 +13,7 @@
   
   .container {
     margin-top: 2rem;
+    
   }
   
   .images{
@@ -21,8 +22,29 @@
     object-fit: cover;
   }
 
-  .card-about{
-      background-color: #9595a7;
+  /* .card-about{
+      background-color: #0C0C22;
       border: solid black;
-    border-radius: 35px;
+    border-radius: 25px;
+  } */
+
+  .img-thumbnail{
+    max-width: 300px;
+    margin: 10px;
+    border-color: #0C0C22;
+    background-color: white;
+    border: solid 2px;
+  }
+  .about-img{
+    display: flex;
+    justify-content: center;
+  }
+  .about-me{
+    background-color: #0C0C22;
+    padding: 10px;
+    display: flex;
+    align-content: center;
+    border: solid white;
+    border-radius: 10px;
+    color: white;
   }

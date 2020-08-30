@@ -5,7 +5,7 @@ export default function AppCard(props) {
     
     return (
         <div className="col-md-4 mb-4">
-        <div className="card bg-dark text-light text-uppercase text-center h-100">
+        <div className="card text-light text-uppercase text-center h-100">
           <img src={props.img} className="card-img-top img-fluid images" alt="Covidocity" />
           <div className="card-body">
             <h5 className="card-title">

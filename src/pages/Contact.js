@@ -17,6 +17,7 @@ export default class Contact extends Component {
 
       handleFormSubmit = event => {
         event.preventDefault();
+        window.location = "mailto:brycepingul@gmail.com"
         alert(`Thank you ${this.state.name}`)
         this.setState({
             name: "",
